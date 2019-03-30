@@ -9,12 +9,11 @@ class CfgPatches {
 };
 
 class fox_radio{
-	stationList[]  +={"myRadioStation"};
-	stationListNames[] += {"My Radio Station"};
+	stationList[]  +={ {"myRadioStation","My Radio Station" } };
 	class stations{
 		myRadioStation[] = {"mycfgsoundstrack1","mycfgsoundstrack1"};
 };
 
 class cfgSounds{
 	#include "cfgSounds.hpp"
-}
+};
